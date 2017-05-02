@@ -1,0 +1,3 @@
+[submodule ".config/conkyrc-system-overview"]
+	path = .config/conkyrc-system-overview
+	url = https://github.com/dbtdsilva/conkyrc-system-overview.git
