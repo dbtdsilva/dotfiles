@@ -1,0 +1,26 @@
+[user]
+	name = Diogo Silva
+	email = dbtdsilva@gmail.com
+
+[rerere]
+	enabled = true
+
+[push]
+	default = tracking
+
+[branch]
+	autosetuprebase = always
+
+[apply]
+	whitespace = strip
+
+[diff]
+	color = auto
+	rename = copy 
+	tool = bc3
+
+[merge]
+	tool = bc3
+
+[mergetool]
+	bc3 = trustExitCode
