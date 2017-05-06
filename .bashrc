@@ -52,4 +52,5 @@ export SHORT_HOSTNAME=$(hostname -s)
 # Load Bash It
 source $BASH_IT/bash_it.sh
 
-screenfetch -A 'linux'
+neofetch -A 'linux'
+export VISUAL="nano"
