@@ -13,7 +13,7 @@ export BASH_IT_THEME='/home/myrddin/.bash_it/custom/themes/personal-theme/person
 # export BASH_IT_REMOTE='bash-it'
 
 # Your place for hosting Git repos. I use this for private repos.
-export GIT_HOSTING='git@git.domain.com'
+#export GIT_HOSTING='git@git.domain.com'
 
 # Don't check mail when opening terminal.
 unset MAILCHECK
@@ -51,6 +51,7 @@ export SHORT_HOSTNAME=$(hostname -s)
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
+source .bash_aliases
 
 neofetch -A 'linux'
 export VISUAL="nano"
